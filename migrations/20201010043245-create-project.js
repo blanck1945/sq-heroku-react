@@ -40,11 +40,17 @@ module.exports = {
         type: Sequelize.BOOLEAN,
         allowNull: false
       },
-      project_tech: Sequelize.JSONB(Sequelize.STRING),
+      project_front: {
+        type: Sequelize.JSONB(Sequelize.STRING)
+      },
+      project_back: {
+        type: Sequelize.JSONB(Sequelize.STRING)
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE
       },
+      project_back: Sequelize.JSONB(Sequelize.STRING),
       updatedAt: {
         allowNull: false,
         type: Sequelize.DATE

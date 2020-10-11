@@ -22,8 +22,10 @@ module.exports = (sequelize, DataTypes) => {
     project_desc: DataTypes.TEXT,
     project_URL: DataTypes.STRING,
     project_github: DataTypes.STRING,
+    project_state: DataTypes.BOOLEAN,
     project_img: DataTypes.STRING,
-    project_tech: DataTypes.JSONB(DataTypes.STRING)
+    project_front: DataTypes.JSONB(DataTypes.STRING),
+    project_back: DataTypes.JSONB(DataTypes.STRING),
   }, {
     sequelize,
     modelName: 'Project',
