@@ -29,7 +29,19 @@ module.exports = (sequelize, DataTypes) => {
   }, {
     sequelize,
     modelName: 'Project',
-    tableName: 'projects'
+    tableName: 'projects',
+    defaultScope: {
+      attributes: { exclude: ['createdAt', 'updatedAt'] },
+    }
   });
   return Project;
 };
+
+
+
+/*
+scopes: {
+  withoutPassword: {
+    attributes: { exclude: ['password'] },
+  }
+}*/
