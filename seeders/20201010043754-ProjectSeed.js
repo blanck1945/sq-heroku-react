@@ -71,6 +71,19 @@ module.exports = {
         updatedAt: new Date()
       },
       {
+        project_name: 'Rendir',
+        project_type: "Aplicación",
+        project_desc: "Aplicación basada en el Keeper de la universidad del Siglo XXI",
+        project_URL: "https://rendir-app.vercel.app/",
+        project_github: "https://github.com/blanck1945/Rendir-App",
+        project_img: "Rendir.png",
+        project_state: true,
+        project_front: JSON.stringify(["Vue", "Bulma"]),
+        project_back: JSON.stringify(["Firebase"]),
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
         project_name: 'Book Depository',
         project_type: "Pagina Web",
         project_desc: "Copia de la pagina Book Depository.",
