@@ -84,6 +84,19 @@ module.exports = {
         updatedAt: new Date()
       },
       {
+        project_name: 'Law-App',
+        project_type: "Aplicación",
+        project_desc: "Aplicación para manejo de causas, abogados, juzgados y clientes",
+        project_URL: "https://next-dev-ten.vercel.app/",
+        project_github: "https://github.com/blanck1945/Rendir-App",
+        project_img: "Law.png",
+        project_state: false,
+        project_front: JSON.stringify(["React", "Next", "SCSS", "Bulma", "TypeScript", "React-Control-Form"]),
+        project_back: JSON.stringify(["MongoDB", "mongoose"]),
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
         project_name: 'Book Depository',
         project_type: "Pagina Web",
         project_desc: "Copia de la pagina Book Depository.",
@@ -95,6 +108,19 @@ module.exports = {
         project_back: JSON.stringify([
           "Node", "Express", "Knex"
         ]),
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        project_name: 'React-Control-Form',
+        project_type: "Libreria",
+        project_desc: "Libreria contruida encima de Formik para manejar formularios con React.",
+        project_URL: "https://www.npmjs.com/package/react-control-form/v/0.1.1",
+        project_github: "https://github.com/blanck1945/React-control-form",
+        project_img: "reactControlForm.png",
+        project_state: true,
+        project_front: JSON.stringify(["React", "TypeScript", "SCSS", "Formik"]),
+        project_back: JSON.stringify([]),
         createdAt: new Date(),
         updatedAt: new Date()
       }
